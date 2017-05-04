@@ -1,0 +1,34 @@
+#circle {
+	width: 75px;
+	height: 75px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  display: inline-block;
+  position: fixed;
+  border: none;
+}
+
+#bar{
+  width: 275px;
+  height: 50px;
+  top: 90%;
+  float: left;
+  background-color: rgb(255, 255, 0);
+  position: absolute;
+}
+
+body{
+  background: rgb(0,0,50);
+}
+
+#button-prop{
+  border-style: none;
+  background-color: inherit;
+}
+
+.button-area{
+  position: absolute;
+  left: 20%;
+}
