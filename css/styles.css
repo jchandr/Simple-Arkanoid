@@ -10,13 +10,30 @@
   border: none;
 }
 
+#start-button{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background: red;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
 #bar{
   width: 275px;
   height: 50px;
   top: 90%;
   float: left;
   background-color: rgb(255, 255, 0);
-  position: absolute;
+  position: relative;
+  border-radius: 5px;
+  left: 40%;
 }
 
 body{
